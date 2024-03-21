@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/save"
+        android:title="Save to Phone"
+        android:icon="@drawable/save_icon"
+        android:iconTint="@color/white"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/share_icon"
+        android:iconTint="@color/white"
+        app:showAsAction="never"
+        />
+
+
+
+</menu>

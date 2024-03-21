@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "563484427479",
+    "project_id": "photobomb-ad908",
+    "storage_bucket": "photobomb-ad908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563484427479:android:87289a359631cfc0de1c92",
+        "android_client_info": {
+          "package_name": "com.ash.photobomb"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVxUuIZg-Yja9rGry93T5ijBjWVdzhoyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

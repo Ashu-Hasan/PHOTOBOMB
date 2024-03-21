@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PHOTOBOMB" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PHOTOBOMB" parent="Base.Theme.PHOTOBOMB" >
+
+
+        // for three dot menu
+        <item name="popupMenuBackground">@drawable/popup_menu_bg</item>
+
+        // for pop up menu for all kind of popUp
+        <item name="android:popupMenuStyle">@style/popupBGStyle</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/myPopupMenuTextAppearanceSmall</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/myPopupMenuTextAppearanceLarge</item>
+
+    </style>
+
+
+    <style name="popupBGStyle" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:popupBackground">@drawable/popup_menu_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:itemTextAppearance">@color/white</item>
+    </style>
+
+
+</resources>

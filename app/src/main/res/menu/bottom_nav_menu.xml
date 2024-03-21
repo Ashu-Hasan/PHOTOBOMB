@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homePage"
+        android:icon="@drawable/home_icon"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/addGroup"
+        android:icon="@drawable/add_group_icon"
+        android:title="Create" />
+
+    <item
+        android:id="@+id/notification"
+        android:icon="@drawable/notification_icon"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/pending"
+        android:icon="@drawable/pending_icon"
+        android:title="Pending" />
+</menu>

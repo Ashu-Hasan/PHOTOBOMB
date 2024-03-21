@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Heading">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">@color/text_heading</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Description">
+        <item name="android:textColor">@color/description</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    <style name="Log_button">
+        <item name="android:textColor">@color/text_heading</item>
+        <item name="android:background">@drawable/button</item>
+    </style>
+
+    <style name="Edit_Text">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+    </style>
+
+    <style name="nave_corner">
+        <item name="android:bottomRightRadius">100dp</item>
+        <item name="android:topRightRadius">100dp</item>
+    </style>
+
+    <style name="InputBox">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxCornerRadiusBottomStart">15dp</item>
+        <item name="boxCornerRadiusBottomEnd">15dp</item>
+        <item name="boxCornerRadiusTopStart">15dp</item>
+        <item name="boxCornerRadiusTopEnd">15dp</item>
+        <item name="hintTextColor">@color/hint</item>
+        <item name="boxStrokeColor">@color/hint</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+    </style>
+
+    <style name="corner">
+        <item name="boxCornerRadiusBottomStart">15dp</item>
+        <item name="boxCornerRadiusBottomEnd">15dp</item>
+        <item name="boxCornerRadiusTopStart">15dp</item>
+        <item name="boxCornerRadiusTopEnd">15dp</item>
+    </style>
+
+    <style name="circle">
+        <item name="boxBackgroundMode">outline</item>
+        <item name="hintTextColor">@color/hint</item>
+        <item name="boxStrokeColor">@color/hint</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="boxStrokeWidthFocused">2dp</item>
+        <item name="boxCornerRadiusBottomStart">50dp</item>
+        <item name="boxCornerRadiusBottomEnd">50dp</item>
+        <item name="boxCornerRadiusTopStart">50dp</item>
+        <item name="boxCornerRadiusTopEnd">50dp</item>
+    </style>
+
+
+    // for toolbar style for pupup
+    <style name="ThemeOverlay.MyPopupTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    // to change the text color of pop up menu
+    <style name="myPopupMenuTextAppearanceSmall" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Small">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="myPopupMenuTextAppearanceLarge" parent="@style/TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+
+
+    <style name="MyPopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@drawable/popup_menu_bg</item>
+        <item name="android:icon">@drawable/pin_icon</item>
+    </style>
+
+    <style name="MyPopupMenu1" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@drawable/popup_menu_bg</item>
+        <item name="backgroundTint">@color/bottomnavigation</item>
+        <item name="android:textSize">18sp</item>
+<!--        <item name="android:paddingStart">3dp</item>-->
+
+
+    </style>
+
+
+    <style name="MyDialogAnimationToOpen">
+        <item name="android:windowEnterAnimation">@anim/zoom_in</item>
+        <item name="android:windowExitAnimation">@anim/zoom_out</item>
+    </style>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/home"
+            android:title="HomePage"
+            android:visible="false"
+            android:icon="@drawable/home_icon"/>
+
+        <item
+            android:id="@+id/myProfile"
+            android:title="My Profile"
+            android:icon="@drawable/profile_icon"/>
+        <item
+            android:id="@+id/accountSettings"
+            android:title="Account Settings"
+            android:icon="@drawable/account_setting_icon"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/manageStorage"
+            android:title="Manage Storage"
+            android:icon="@drawable/manage_storage_icon"
+            android:visible="true"
+            />
+        <item
+            android:id="@+id/aboutUs"
+            android:title="About us"
+            android:icon="@drawable/about_us_icon"/>
+        <item
+            android:id="@+id/TermsConditions"
+            android:title="Terms &amp; Conditions"
+            android:icon="@drawable/terms_conditions_icon"/>
+        <item
+            android:id="@+id/privacyPolicy"
+            android:title="Privacy Policy"
+            android:icon="@drawable/privacy_policy_icon"/>
+        <item
+            android:id="@+id/contactUs"
+            android:title="Contact Us"
+            android:icon="@drawable/contact_us_icon"/>
+        <item
+            android:id="@+id/shareApp"
+            android:title="Share App"
+            android:icon="@drawable/share_icon"/>
+        <item
+            android:id="@+id/logOut"
+            android:title="Log Out"
+            android:icon="@drawable/log_out_icon"/>
+
+
+
+    </group>
+
+</menu>
