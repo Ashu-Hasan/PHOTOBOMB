@@ -70,14 +70,14 @@ dependencies {
     androidTestImplementation("de.hdodenhof:circleimageview:3.1.0")
     implementation ("androidx.navigation:navigation-ui:2.7.7")
 
-    implementation(platform("com.google.firebase:firebase-bom:32.7.1"))
+    implementation(platform("com.google.firebase:firebase-bom:32.7.4"))
     implementation("com.google.firebase:firebase-messaging:23.4.1")
-    implementation("com.google.firebase:firebase-dynamic-links:latest_version")
+    implementation("com.google.firebase:firebase-dynamic-links:21.2.0")
     implementation("com.google.firebase:firebase-invites:17.0.0")
     implementation("com.google.firebase:firebase-dynamic-links:21.2.0")
     implementation("com.google.firebase:firebase-auth:22.3.1")
     implementation("com.google.firebase:firebase-core:21.1.1")
-    implementation("com.google.firebase:firebase-database:20.3.0")
+    implementation("com.google.firebase:firebase-database:20.3.1")
     implementation("com.google.firebase:firebase-storage:20.3.0")
     implementation("com.google.firebase:firebase-analytics:21.5.1")
 
@@ -87,36 +87,36 @@ dependencies {
     implementation ("de.hdodenhof:circleimageview:3.1.0")
 
 
-    implementation ("com.squareup.retrofit2:retrofit:2.7.1")
-    implementation ("com.squareup.retrofit2:converter-gson:2.1.0")
+    implementation ("com.squareup.retrofit2:retrofit:2.10.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.10.0")
 
 
-    implementation ("com.squareup.okhttp3:okhttp:4.9.2")
+    implementation ("com.squareup.okhttp3:okhttp:4.12.0")
 
     //glid
-    implementation ("com.github.bumptech.glide:glide:4.10.0")
-    annotationProcessor("com.github.bumptech.glide:compiler:4.10.0")
+    implementation ("com.github.bumptech.glide:glide:4.16.0")
+    annotationProcessor("com.github.bumptech.glide:compiler:4.16.0")
 
 
     // S3 dependencies ...
-    implementation ("com.amazonaws:aws-android-sdk-s3:2.16.7")
-    implementation ("com.amazonaws:aws-android-sdk-ddb:2.16.7")
-    implementation ("com.amazonaws:aws-android-sdk-core:2.16.7")
-    implementation ("com.amazonaws:aws-android-sdk-mobile-client:2.16.7")
-    implementation ("com.amazonaws:aws-android-sdk-cognitoauth:2.16.7")
-    implementation ("com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.16.7")
+    implementation ("com.amazonaws:aws-android-sdk-s3:2.75.0")
+    implementation ("com.amazonaws:aws-android-sdk-ddb:2.75.0")
+    implementation ("com.amazonaws:aws-android-sdk-core:2.75.0")
+    implementation ("com.amazonaws:aws-android-sdk-mobile-client:2.75.0")
+    implementation ("com.amazonaws:aws-android-sdk-cognitoauth:2.75.0")
+    implementation ("com.amazonaws:aws-android-sdk-cognitoidentityprovider:2.75.0")
 
 
 
-    implementation ("com.airbnb.android:lottie:2.8.0")
+    implementation ("com.airbnb.android:lottie:6.4.0")
     implementation ("com.github.Gkemon:Easy-Android-Loading:1.2")
 
     
     implementation ("io.github.tashilapathum:please-wait:0.4.0")
 
     // for faceBook login
-    implementation ("com.facebook.android:facebook-android-sdk:latest.release")
-    implementation ("com.facebook.android:facebook-android-sdk:[8,9)")
+    implementation ("com.facebook.android:facebook-android-sdk:16.3.0")
+    implementation ("com.facebook.android:facebook-android-sdk:16.3.0")
 //    implementation ("com.facebook.android:facebook-login:5.0.0")
 
 
@@ -124,7 +124,7 @@ dependencies {
 
 
     // FOR PAYMENT
-    implementation ("com.razorpay:checkout:1.5.16")
+    implementation ("com.razorpay:checkout:1.6.38")
 
 
 }
